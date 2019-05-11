@@ -8,7 +8,7 @@
 
 ## 运行环境
 
-CentOS7.x,需要的基础软件 Python3 和 OpenResty 以及相关依赖软件包,基础软件建议如下安装
+CentOS 7.x,需要的基础软件 Python3 和 OpenResty 以及相关依赖软件包,基础软件建议如下安装
 
 ```
 # 安装Python3
