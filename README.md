@@ -35,4 +35,4 @@ API/Aliyun/Aliyun-info.py
 
 ## 还有问题? 微信沟通
 
-<img src="//s.xabcloud.com/_media/ywgx.jpg" width = 50% height = 50% />
+![](//s.xabcloud.com/_media/ywgx.jpg)
