@@ -23,7 +23,6 @@ curl -s xabc.io/o|bash
 # 我们习惯部署 OpenResty 的路径,可以根据需要自己调整
 /opt/openresty/nginx/conf/nginx.conf
 /opt/openresty/nginx/conf/lua/info.lua
-
 ```
 
 ## 数据收集
@@ -33,3 +32,7 @@ curl -s xabc.io/o|bash
 API/Aliyun/Aliyun-info.py 
 ...
 ```
+
+## 还有问题? 微信沟通
+
+<img src="//s.xabcloud.com/_media/ywgx.jpg" width = 50% height = 50% />
