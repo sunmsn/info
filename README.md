@@ -33,6 +33,4 @@ API/Aliyun/Aliyun-info.py
 ...
 ```
 
-## XABC 企业运维管控平台 QQ 群
-
-QQ群号:839212346
+## XABC 企业运维管控平台 QQ 群号: 839212346
