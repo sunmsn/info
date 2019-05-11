@@ -10,15 +10,26 @@
 
 CentOS7.x,需要的基础软件 Python3 和 OpenResty 以及相关依赖软件包,基础软件建议如下安装
 
-```安装Python3
-curl -s xabc.io/py3|bash 
 ```
-```安装OpenResty
+# 安装Python3
+curl -s xabc.io/py3|bash 
+# 安装OpenResty
 curl -s xabc.io/o|bash 
 ```
 
 ## 数据展现
 
-- API/Aliyun/Aliyun-info.py 
+```
+# 我们习惯部署 OpenResty 的路径,可以根据需要自己调整
+/opt/openresty/nginx/conf/nginx.conf
+/opt/openresty/nginx/conf/lua/info.lua
+
+```
 
 ## 数据收集
+
+```
+# 执行数据收集器,将云资源数据写入Redis
+API/Aliyun/Aliyun-info.py 
+...
+```
