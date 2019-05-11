@@ -33,6 +33,6 @@ API/Aliyun/Aliyun-info.py
 ...
 ```
 
-## 还有问题? 微信沟通
+## XABC 企业运维管控平台 QQ 群
 
-![](https://s.xabcloud.com/_media/ywgx.jpg)
+QQ群号:839212346
