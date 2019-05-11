@@ -6,6 +6,19 @@
 - 1.数据收集 [使用云服务商提供的 API 将云资源以 Key-Value 结构写入Redis]
 - 2.数据展现 [使用 OpenResty->Lua->Redis 将数据直接 Web 展现和检索]
 
+## 运行环境
+
+CentOS7.x,需要的基础软件 Python3 和 OpenResty 以及相关依赖软件包,基础软件建议如下安装
+
+```安装Python3
+curl -s xabc.io/py3|bash 
+```
+```安装OpenResty
+curl -s xabc.io/o|bash 
+```
+
 ## 数据展现
+
+- API/Aliyun/Aliyun-info.py 
 
 ## 数据收集
