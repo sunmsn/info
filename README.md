@@ -35,4 +35,4 @@ API/Aliyun/Aliyun-info.py
 
 ## 还有问题? 微信沟通
 
-![](//s.xabcloud.com/_media/ywgx.jpg)
+![](https://s.xabcloud.com/_media/ywgx.jpg)
