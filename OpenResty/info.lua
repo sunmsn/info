@@ -1,15 +1,4 @@
-local function len(s)
-	local iter,err = ngx.re.gmatch(s,[[(\.)]])
-	x = 1
-	while true do
-		local m,err = iter()
-		if not m or err then
-			break
-		end
-		x = x + 1
-	end
-	return x
-end
+-- 读取 Redis 返回查询数据,注意根据需要修改 Redis 密码
 local function split(s,p)
 	local rt= {}
 	string.gsub(s,'[^'..p..']+', function(w) table.insert(rt,w) end )
