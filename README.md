@@ -7,9 +7,7 @@
 - 2.数据展现 [使用 OpenResty->Lua->Redis 将数据直接 Web 展现和检索]
 
 ## 运行环境
-
 CentOS 7.x,需要的基础软件 Python3 和 OpenResty 以及相关依赖软件包,基础软件建议如下安装
-
 ```
 # 安装Python3
 curl -s xabc.io/py3|bash 
@@ -17,20 +15,18 @@ curl -s xabc.io/py3|bash
 curl -s xabc.io/o|bash 
 ```
 
-## 数据展现
-
-```
-# 我们习惯部署 OpenResty 的路径,可以根据需要自己调整
-/opt/openresty/nginx/conf/nginx.conf
-/opt/openresty/nginx/conf/lua/info.lua
-```
-
 ## 数据收集
-
 ```
 # 执行数据收集器,将云资源数据写入Redis
 API/Aliyun/Aliyun-info.py 
 ...
+```
+
+## 数据展现
+```
+# 我们习惯部署 OpenResty 的路径,可以根据需要自己调整
+/opt/openresty/nginx/conf/nginx.conf
+/opt/openresty/nginx/conf/lua/info.lua
 ```
 
 ## XABC 企业运维管控平台 QQ 群号: 839212346
