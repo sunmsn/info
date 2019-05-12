@@ -7,12 +7,14 @@
 - 2.数据展现 [使用 OpenResty->Lua->Redis 将数据直接 Web 展现和检索]
 
 ## 运行环境
-CentOS 7.x,需要的基础软件 Python3 和 OpenResty 以及相关依赖软件包,基础软件建议如下安装
+CentOS 7.x,需要的基础软件 Python3 和 OpenResty,Redis 以及相关依赖软件包,基础软件建议如下安装
 ```
 # 安装Python3
 curl -s xabc.io/py3|bash 
 # 安装OpenResty
 curl -s xabc.io/o|bash 
+# 安装Redis
+curl -s xabc.io/r|bash 
 ```
 
 ## 数据收集
