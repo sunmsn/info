@@ -4,9 +4,9 @@ local function split(s,p)
 	string.gsub(s,'[^'..p..']+', function(w) table.insert(rt,w) end )
 	return rt
 end
-local red = redis:new()
+local red = redis.new()
 local key = split(ngx.var.uri,"/")[1] or '*'
-red:connect(red,'127.0.0.1','6379')
+red.connect(red,'127.0.0.1','6379')
 red:auth("io")
 local res = red:keys("INFO:*"..key.."*")
 local x=""
