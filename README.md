@@ -6,6 +6,8 @@
 - 1.数据收集 [使用云服务商提供的 API 将云资源以 Key-Value 结构写入Redis]
 - 2.数据展现 [使用 OpenResty->Lua->Redis 将数据直接 Web 展现和检索]
 
+## [Demo](https://info.xabc.io)
+
 ## 运行环境
 CentOS 7.x,需要的基础软件 Python3 和 OpenResty,Redis 以及相关依赖软件包,基础软件建议如下安装
 ```
@@ -30,5 +32,3 @@ API/Aliyun/Aliyun-info.py
 /opt/openresty/nginx/conf/nginx.conf
 /opt/openresty/nginx/conf/lua/info.lua
 ```
-
-## XABC 企业运维管控平台 QQ 群号: 839212346
