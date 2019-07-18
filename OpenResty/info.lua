@@ -11,7 +11,7 @@ red:auth("io")
 local res = red:keys("INFO:*"..key.."*")
 local x=""
 for i,v in ipairs(res) do
-	x=x..v.."\n"
+	x=x.."["..i.."]"..v.."\n"
 end
 ngx.say(string.sub(x,0,-2))
 red:close()
